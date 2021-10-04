@@ -1,5 +1,4 @@
-﻿using Fitbit.Api.Portable;
-using FitbitApp.Models;
+﻿using FitbitApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -16,7 +15,7 @@ namespace FitbitApp.Controllers
        
         public HomeController()
         {
-            var cred=""
+           
         }
 
         public ActionResult Index(CredModel model)
